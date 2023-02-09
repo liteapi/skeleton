@@ -1,0 +1,16 @@
+{
+  "name": "pjpawel/light-api-structure",
+  "type": "project",
+  "description": "Proposed structure of Light Api Framework",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "pjpawel",
+      "email": "pawel.jan.podgorski@gmail.com"
+    }
+  ],
+  "require": {
+    "pjpawel/light-api": "dev-master"
+  }
+}
