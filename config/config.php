@@ -1,15 +1,14 @@
 <?php
 
 return [
-    'projectDir' => __DIR__ . '/../',
+    'projectDir' => realpath(__DIR__ . '/../'),
     'trustedIPs' => [],
     'controllers' => [
     ],
     'commands' => [
-
-    ],
-    'components' => [
     ],
     'container' => [
+    ],
+    'extensions' => [
     ],
 ];
