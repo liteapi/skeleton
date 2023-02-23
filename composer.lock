@@ -65,12 +65,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/pjpawel/LightApi.git",
-                "reference": "153f6e6a32fe1fe7f9407acc748d57808453aa11"
+                "reference": "5bd30fa3c4cb15cf93c9d9c7c1fe193dab41f6ef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pjpawel/LightApi/zipball/153f6e6a32fe1fe7f9407acc748d57808453aa11",
-                "reference": "153f6e6a32fe1fe7f9407acc748d57808453aa11",
+                "url": "https://api.github.com/repos/pjpawel/LightApi/zipball/5bd30fa3c4cb15cf93c9d9c7c1fe193dab41f6ef",
+                "reference": "5bd30fa3c4cb15cf93c9d9c7c1fe193dab41f6ef",
                 "shasum": ""
             },
             "require": {
@@ -82,6 +82,9 @@
             "require-dev": {
                 "phpstan/phpstan": "^1.9",
                 "phpunit/phpunit": "9.5.*"
+            },
+            "suggest": {
+                "monolog/monolog": "Suggested logger library. It has extension: pjpawel\\LightApi\\Component\\Logger\\MonologExtension"
             },
             "default-branch": true,
             "type": "framework",
@@ -105,7 +108,7 @@
                 "issues": "https://github.com/pjpawel/LightApi/issues",
                 "source": "https://github.com/pjpawel/LightApi/tree/master"
             },
-            "time": "2023-02-18T14:38:56+00:00"
+            "time": "2023-02-23T17:12:39+00:00"
         },
         {
             "name": "psr/container",
