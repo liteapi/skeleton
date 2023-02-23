@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3241d8f4c681ddf98b05ae954d14d5c6",
+    "content-hash": "602a75b0cd4f10134e9bfe4bd9a70d05",
     "packages": [
         {
             "name": "gnugat/nomo-spaco",
@@ -61,16 +61,16 @@
         },
         {
             "name": "pjpawel/light-api",
-            "version": "dev-master",
+            "version": "v0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pjpawel/LightApi.git",
-                "reference": "5bd30fa3c4cb15cf93c9d9c7c1fe193dab41f6ef"
+                "reference": "1b6447a390cefe679bc7bacb49f2d4a2954811f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pjpawel/LightApi/zipball/5bd30fa3c4cb15cf93c9d9c7c1fe193dab41f6ef",
-                "reference": "5bd30fa3c4cb15cf93c9d9c7c1fe193dab41f6ef",
+                "url": "https://api.github.com/repos/pjpawel/LightApi/zipball/1b6447a390cefe679bc7bacb49f2d4a2954811f4",
+                "reference": "1b6447a390cefe679bc7bacb49f2d4a2954811f4",
                 "shasum": ""
             },
             "require": {
@@ -86,7 +86,6 @@
             "suggest": {
                 "monolog/monolog": "Suggested logger library. It has extension: pjpawel\\LightApi\\Component\\Logger\\MonologExtension"
             },
-            "default-branch": true,
             "type": "framework",
             "autoload": {
                 "psr-4": {
@@ -106,9 +105,9 @@
             "description": "LightApi is very fast framework that doesn't affect your architecture",
             "support": {
                 "issues": "https://github.com/pjpawel/LightApi/issues",
-                "source": "https://github.com/pjpawel/LightApi/tree/master"
+                "source": "https://github.com/pjpawel/LightApi/tree/v0.1.0"
             },
-            "time": "2023-02-23T17:12:39+00:00"
+            "time": "2023-02-23T17:35:06+00:00"
         },
         {
             "name": "psr/container",
@@ -217,9 +216,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "pjpawel/light-api": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

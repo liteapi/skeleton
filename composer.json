@@ -11,6 +11,6 @@
     }
   ],
   "require": {
-    "pjpawel/light-api": "dev-master"
+    "pjpawel/light-api": "^0.1.0"
   }
 }
