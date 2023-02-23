@@ -3,10 +3,7 @@
 return [
     'projectDir' => realpath(__DIR__ . '/../'),
     'trustedIPs' => [],
-    'controllers' => [
-    ],
-    'commands' => [
-    ],
+    'services' => realpath(__DIR__ . '/../src'),
     'container' => [
     ],
     'extensions' => [
