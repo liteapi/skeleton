@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "602a75b0cd4f10134e9bfe4bd9a70d05",
+    "content-hash": "11b1f2291f1d36a72a9319a1ab79f678",
     "packages": [
         {
             "name": "gnugat/nomo-spaco",
@@ -61,16 +61,16 @@
         },
         {
             "name": "pjpawel/light-api",
-            "version": "v0.1.0",
+            "version": "v0.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pjpawel/LightApi.git",
-                "reference": "1b6447a390cefe679bc7bacb49f2d4a2954811f4"
+                "reference": "58cf0836c67caedfe5b20ad36073662bb6888dae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pjpawel/LightApi/zipball/1b6447a390cefe679bc7bacb49f2d4a2954811f4",
-                "reference": "1b6447a390cefe679bc7bacb49f2d4a2954811f4",
+                "url": "https://api.github.com/repos/pjpawel/LightApi/zipball/58cf0836c67caedfe5b20ad36073662bb6888dae",
+                "reference": "58cf0836c67caedfe5b20ad36073662bb6888dae",
                 "shasum": ""
             },
             "require": {
@@ -105,9 +105,9 @@
             "description": "LightApi is very fast framework that doesn't affect your architecture",
             "support": {
                 "issues": "https://github.com/pjpawel/LightApi/issues",
-                "source": "https://github.com/pjpawel/LightApi/tree/v0.1.0"
+                "source": "https://github.com/pjpawel/LightApi/tree/v0.2.0"
             },
-            "time": "2023-02-23T17:35:06+00:00"
+            "time": "2023-03-01T22:38:32+00:00"
         },
         {
             "name": "psr/container",

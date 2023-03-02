@@ -11,6 +11,6 @@
     }
   ],
   "require": {
-    "pjpawel/light-api": "^0.1.0"
+    "pjpawel/light-api": "^0.2.0"
   }
 }
