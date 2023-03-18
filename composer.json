@@ -1,17 +1,13 @@
 {
-  "name": "pjpawel/light-api-structure",
+  "name": "liteapi/skeleton",
   "type": "project",
   "description": "Proposed structure of Light Api Framework",
   "minimum-stability": "stable",
   "license": "Apache-2.0",
   "authors": [
-    {
-      "name": "pjpawel",
-      "email": "pawel.jan.podgorski@gmail.com"
-    }
   ],
   "require": {
-    "pjpawel/light-api": "^0.2.0"
+    "liteapi/liteapi": "^0.3.0"
   },
   "autoload": {
     "psr-4": {
