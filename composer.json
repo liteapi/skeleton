@@ -1,7 +1,7 @@
 {
   "name": "liteapi/skeleton",
   "type": "project",
-  "description": "Proposed structure of Light Api Framework",
+  "description": "Proposed structure of LiteApi framework",
   "minimum-stability": "stable",
   "license": "Apache-2.0",
   "authors": [
