@@ -1,11 +1,10 @@
 #!/usr/bin/env php
 <?php
 
-require_once __DIR__ . '/../vendor/autoload.php';
+use LiteApi\Component\Runner\CliRunner;
+use LiteApi\Kernel;
 
-use pjpawel\LightApi\Kernel;
-use pjpawel\LightApi\Component\Runner\CliRunner;
+require_once __DIR__ . '/../vendor/autoload.php';
 
 $runner = new CliRunner(new Kernel(__DIR__ . '/../config/'), $_SERVER['argv'][1]);
 $runner->run();
-return $runner->result;
