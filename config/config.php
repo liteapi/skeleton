@@ -10,7 +10,7 @@ $projectDir = realpath(__DIR__ . '/../');
 return [
     'projectDir' => $projectDir,
     'trustedIPs' => [],
-    'services' => $projectDir . '/src',
+    'services' => [$projectDir . '/src'],
     'container' => [
     ],
     'extensions' => [
