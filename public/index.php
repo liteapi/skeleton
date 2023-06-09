@@ -1,10 +1,12 @@
 <?php
 
+require_once __DIR__ . '/../vendor/autoload.php';
+
+use LiteApi\Component\Config\ConfigLoader;
 use LiteApi\Component\Runner\HttpRunner;
 use LiteApi\Kernel;
 
-require_once __DIR__ . '/../vendor/autoload.php';
+$configLoader = new ConfigLoader(__DIR__ . '/../');
 
-
-$runner = new HttpRunner(new Kernel(__DIR__ . '/../config/'));
+$runner = new HttpRunner(new Kernel($configLoader->getConfig()));
 $runner->run();

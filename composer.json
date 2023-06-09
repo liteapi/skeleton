@@ -7,9 +7,9 @@
   "authors": [
   ],
   "require": {
-    "liteapi/liteapi": "^0.5.0",
+    "liteapi/liteapi": "^0.5",
     "monolog/monolog": "^3.3",
-    "symfony/cache": "^6.2"
+    "symfony/cache": "^6.3"
   },
   "autoload": {
     "psr-4": {
